@@ -1,5 +1,3 @@
-
-
 img1 = imread('up.bmp');img2 = imread( 'right.bmp' );img3 = imread( 'down.bmp' );img4 = imread( 'left.bmp' );
 
 % make gray scale images
@@ -73,4 +71,3 @@ figure(2)
 imshow(1-confidence);
 figure(3);
 imshow(edges);
-
