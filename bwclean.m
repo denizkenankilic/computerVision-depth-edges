@@ -1,5 +1,3 @@
-
-
 function [ clean_img ]= bwclean( img, min_blob_size)
 
 clean_img = zeros( size( img));
